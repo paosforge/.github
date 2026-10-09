@@ -2,7 +2,7 @@
 
 **A new personal operating system in development.** PaOS Forge is being built around a native desktop, modular Linux capabilities, and useful automation and AI. The goal is a familiar day-to-day computer experience with more room for local tools and owner control.
 
-- [Explore the beta desktop simulator](https://gransee.com/review/paos-8bc176296315f468b1089ab1/) — a browser design preview of planned windows, apps, themes, and workflows.
+- [Explore the beta desktop simulator](https://gransee.com/review/paos-8bc176296315f468b1089ab1/) — a browser design preview of planned windows, apps, themes, and workflows; best on a laptop or desktop.
 - [Visit the PaOS Forge website](https://paosforge.com/) — the project introduction and current status.
 
 ## What makes it different?

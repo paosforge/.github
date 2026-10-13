@@ -4,10 +4,31 @@
 
 - [Explore the beta desktop simulator](https://gransee.com/review/paos-8bc176296315f468b1089ab1/) — a browser design preview of planned windows, apps, themes, and workflows; best on a laptop or desktop.
 - [Visit the PaOS Forge website](https://paosforge.com/) — the project introduction and current status.
+- [Follow Peter’s AI theory channel on YouTube](https://www.youtube.com/@AITheory-ev2mw) — a plain-language PaOS introduction is planned, about busy lives, AI-assisted building, and making more time for people.
 
 ## What makes it different?
 
 The release plan combines a native PaOS desktop with modular Linux guest capabilities for familiar command-line tools and selected apps. It also calls for local AI and typed automation with explicit owner-control boundaries. The browser simulator lets you explore this direction today; its interactions are illustrative and do not establish finished OS behavior.
+
+## Security and safety by design
+
+PaOS is being designed to keep the owner's authority above apps, guests, and AI agents. The release requirements call for Secure Boot to stay on, signed and recoverable boot and updates, limited capabilities for software and devices, and installation that preserves the existing system and data. A missing model or a mistaken AI verdict must never grant permission. Protective changes must not silently lock out the owner or destroy data. These are requirements still being tested on real hardware, not protections proved by the browser simulator.
+
+## AI defending against AI
+
+Peter's guiding idea is to use AI to protect people from hostile AI **and** conventional threats. The planned Guardian watches local security events from networks, peripherals, and agents, then helps explain suspicious behavior in plain language. Examples include a rogue agent, an untrusted USB device, a suspicious download, or a network trick. The defender does not need to out-think a larger attacking model: local context and enforceable boundaries give it a different advantage.
+
+AI can detect, correlate, and advise, but deterministic rules enforce the boundary. Any automatic tightening is limited to predeclared, bounded, reversible, recorded responses. Loosening a safeguard or taking an irreversible action remains the owner's decision. Security events and baselines stay on the machine unless the owner approves a limited summary for sharing.
+
+## Evidence before assurance
+
+PaOS will call a protection ready only after independent adversarial and failure tests, including a missing or wrong model, hostile input, false positives, recovery, and supported real hardware. Releases should state what was tested and what remains unsupported. The beta desktop simulator shows the intended experience; it is not proof of native PaOS security.
+
+## Licensing plan
+
+The final October 2026 project ruling sets **[MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/) for the PaOS core** (boot, Manager, kernel, PaOS-owned core drivers and hypervisor) and **[Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) for app interfaces, the SDK, verb definitions and Forge tools**. MPL's file-level copyleft means modified covered core files are shared when distributed. Separate apps, games, drivers, recipes and bundles may use the author's chosen license, including open or proprietary terms. Shipped Linux guests keep their own GPL and other upstream licenses and require the applicable source offer; GPL is **not** the PaOS core license.
+
+Contributions will use DCO sign-off, with no CLA or copyright assignment. The actual source repositories, license files, third-party notices and downloads are coming soon; this introduction and the browser simulator are not a source release.
 
 ## Ways to support PaOS
 
@@ -25,7 +46,7 @@ You do not need to write code to help. A simple thank-you matters, and so does a
 - **Improve the explanations.** Help with documentation, code comments, a code map, tutorials, translations, and accessibility reviews.
 - **Test on your hardware** and contribute reproducible compatibility evidence once verified public builds and test instructions are available.
 - **Contribute code.** Fix a bug, improve a widget or tool, build an app or driver, or propose a core change. The planned contribution path uses DCO sign-off, with no CLA or copyright assignment. AI-assisted work is welcome when a human contributor takes responsibility for provenance and testing.
-- **Report security problems privately** through the security route that will be published before public beta; please do not post vulnerability details in a public issue.
+- **Report security problems privately** through the security route that will be published before the public OS beta; please do not post vulnerability details in a public issue.
 
 We are also considering a one-time “buy us lunch” option and optional monthly support for compute costs. **No official donation, Patreon, or bounty link is live yet.** Any such option will appear here only after its terms and destination are ready.
 

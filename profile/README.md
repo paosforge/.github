@@ -10,6 +10,12 @@
 
 The release plan combines a native PaOS desktop with modular Linux guest capabilities for familiar command-line tools and selected apps. It also calls for local AI and typed automation with explicit owner-control boundaries. The browser simulator lets you explore this direction today; its interactions are illustrative and do not establish finished OS behavior.
 
+## Work with the Forge
+
+Gransee Engineering is open to discussing **scoped feasibility work** around hardware and driver interoperability, and selective embedded or appliance prototypes. A first engagement could produce a tested hardware inventory, a reproducible bring-up result, and a written account of limitations and next steps. As PaOS matures, custom workflows for small teams may become another fit; production use with sensitive data or fleets needs proven backup, access, audit, and support capabilities first.
+
+These are exploratory project inquiries, not an announcement of PaOS commercial support or certified deployments. For a candidate project, use [Gransee Engineering's contact form](https://gransee.com/#contact) and see [PaOS Forge](https://paosforge.com/) for the product's current status.
+
 ## Security and safety by design
 
 PaOS is being designed to keep the owner's authority above apps, guests, and AI agents. The release requirements call for Secure Boot to stay on, signed and recoverable boot and updates, limited capabilities for software and devices, and installation that preserves the existing system and data. A missing model or a mistaken AI verdict must never grant permission. Protective changes must not silently lock out the owner or destroy data. These are requirements still being tested on real hardware, not protections proved by the browser simulator.

@@ -56,6 +56,10 @@ You do not need to write code to help. A simple thank-you matters, and so does a
 
 We are also considering a one-time “buy us lunch” option and optional monthly support for compute costs. **No official donation, Patreon, or bounty link is live yet.** Any such option will appear here only after its terms and destination are ready.
 
+## Updates and contact
+
+To hear when PaOS 0.1 ships, email [hello@paosforge.com](mailto:hello@paosforge.com?subject=Tell%20me%20when%200.1%20ships) with the subject "Tell me when 0.1 ships." Your address is used only for that one announcement and is never shared. Questions and ideas go to the same address. Peter reads everything; replies come weekly.
+
 ## Coming soon
 
 Public source code, signed downloads, a tested-hardware list, limitations, quick-start instructions, feedback and contribution routes, and security guidance will appear here when the first release candidate is ready. **There is no public OS download or source release yet.**

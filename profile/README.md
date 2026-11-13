@@ -1,6 +1,8 @@
 # PaOS Forge™
 
-**A new personal operating system in development.** PaOS Forge is being built around a native desktop, modular Linux capabilities, and useful automation and AI. The goal is a familiar day-to-day computer experience with more room for local tools and owner control.
+**A new personal operating system in development.** PaOS is being built around a native desktop, modular Linux capabilities, and useful automation and AI. The goal is a familiar day-to-day computer experience with more room for local tools and owner control. PaOS Forge™ is the project's trademarked name, used for the website and this GitHub organization.
+
+PaOS is directed by Peter and written mostly by AI coding agents (Claude and Codex), checked by automated tests on real hardware.
 
 > **Pre-0.1.** PaOS has been tested only on six specific machines in our lab. It is not installable on general hardware, and there are no downloads yet.
 
@@ -14,7 +16,7 @@
 
 ## What makes it different?
 
-The release plan combines a native PaOS desktop with modular Linux guest capabilities for familiar command-line tools and selected apps. It also calls for local AI and typed automation with explicit owner-control boundaries. The [0.1 simulator](https://paosforge.com/simulator/) lets you explore this direction today; its interactions are illustrative and do not establish finished OS behavior.
+The release plan combines a native PaOS desktop with modular Linux guest capabilities for familiar command-line tools and selected apps. It also calls for local AI, and for typed commands (each with a fixed name and checked inputs) that scripts and AI tools can use only with the owner's permission. The [0.1 simulator](https://paosforge.com/simulator/) lets you explore this direction today; its interactions are illustrative and do not establish finished OS behavior.
 
 ## Work with the Forge
 
@@ -38,7 +40,7 @@ PaOS will call a protection ready only after independent adversarial and failure
 
 ## Licensing plan
 
-The final October 2026 project ruling sets **[MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/) for the PaOS core** (boot, Manager, kernel, PaOS-owned core drivers and hypervisor) and **[Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) for app interfaces, the SDK, verb definitions and Forge tools**. MPL's file-level copyleft means modified covered core files are shared when distributed. Separate apps, games, drivers, recipes and bundles may use the author's chosen license, including open or proprietary terms. Shipped Linux guests keep their own GPL and other upstream licenses and require the applicable source offer; GPL is **not** the PaOS core license.
+PaOS uses **[MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/) for the PaOS core** (boot, Manager, kernel, PaOS-owned core drivers and hypervisor) and **[Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) for app interfaces, the SDK, the definitions of its typed commands and the Forge tools**. MPL's file-level copyleft means modified covered core files are shared when distributed. Separate apps, games, drivers, recipes and bundles may use the author's chosen license, including open or proprietary terms. Shipped Linux guests keep their own GPL and other upstream licenses and require the applicable source offer; GPL is **not** the PaOS core license.
 
 Contributions will use DCO sign-off, with no CLA or copyright assignment. The [source preview](https://github.com/paosforge/paos) carries the license files and third-party notices. Downloads come with 0.1 Preview.
 
@@ -70,4 +72,4 @@ To hear when PaOS 0.1 ships, email [hello@paosforge.com](mailto:hello@paosforge.
 
 The GUI preview VM, then signed downloads, a tested-hardware list, limitations and quick-start instructions with 0.1 Preview. **There is no public OS download yet;** the source preview is for reading.
 
-PaOS Forge™ is a trademark. PaOS is directed by Peter and developed with AI coding agents. It is being tested on real hardware; each published capability will need its own evidence.
+PaOS Forge™ is a trademark. Each published capability will need its own evidence from tests on real hardware.
